@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Send Selected Data On Mail",
+    "description": "Allows you to send selected text over mail.",
+    "version": "1",
+    "author": "Piyush Joshi",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "index.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icon.png", 
+        "popup": "shopcmp.htm"  
+    }
+}
